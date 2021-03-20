@@ -32,6 +32,7 @@ begin
     process is
     begin
         num_valid_tb <= '0';
+        num_data_tb <= "00000000"; --36
         wait for 155 ns;
 
         num_valid_tb <= '1';

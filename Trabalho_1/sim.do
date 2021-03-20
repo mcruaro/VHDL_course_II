@@ -10,4 +10,4 @@ vsim -t 1ns +notimingchecks work.testbench
 
 do wave.do 
 
-run 1us
+run 2us
